@@ -13,7 +13,7 @@ def visualize_molecule(structures, molecule_name):
         molecule_data,
         x="x",
         y="y",
-        z="z",
+        z="z",  
         color="atom",
         symbol="atom",
         title=f'3D Visualization of Molecule: {molecule_name}',
@@ -28,4 +28,4 @@ if __name__ == "__main__":
     # Load the structures data
     file_path = "dataset/champs-scalar-coupling/structures.csv"
     structures = load_structures(file_path)
-    visualize_molecule(structures, 'dsgdb9nsd_000017')
+    visualize_molecule(structures, 'dsgdb9nsd_000056')
